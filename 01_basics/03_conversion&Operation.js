@@ -87,6 +87,53 @@ let strAge = String(age)
 
 //================================Operations===================================
 
+let digit = 10
+let negativeDigit = -digit
+//console.log(negativeDigit); // I know you are smart enough to gess the answer.
+
+// there are some basic operations although not much tough but there could be some different things you might know👇🏻
+
+// console.log(10 + 10);
+// console.log(10 - 10);
+// console.log(10 * 10);
+// console.log(10 ** 2); // Power
+// console.log(10 / 2);
+// console.log(10 % 2); // remainder
+
+// these are the basic operations, let's jump into some interesting thing 😉👇🏻
+// what if we try to concate with string with numbers?
+// But firest concatination in string means murging 2 string,
+// eg =>
+    console.log("Wellcome to " + "mtrencher" + " Here we dive in the depth of the knowledge"); // this is the concatination, we are murging different strings together.
+
+// Now 👇🏻
+//console.log("10" + 1); // 101, what? It behaves like string concatination.. so what if we do the opposite of it?
+//console.log(10 + "1"); // still same 🤔 hmm.. but what if 👇🏻
+//console.log("1" + 10 + 2); // 1102, so does that means if we have one string in the operation, it will convert all other elements to string?
+// the ans is No🙅🏻‍♂️, let me show you.
+
+//console.log(1 + 2 + "3"); // 33, what? now it's getting confusing. Let me explain this to you =>
+    //The evaluation starts from the left, so in the 1st and 2nd value there are numbers, so the values are added like numbers but when the third value comes, since it is a string the all value means added value "3" is converted to the string and the concatination occurs. So the value becomes "33".
+
+// still confusing? one last example:-
+//console.log(1 + 2 + "3" + 3); // In the first the 2 values are added normally, now the string value has come, since we have got the string value the remaining values are converted to the sting and the adding becomes concatination. So the ans is 333
+
+// Last few tricky things for this file =>
+    console.log(+true); // 1, + operator convertes the type and we know the number value of the "true" is 1
+    console.log(+false); // 0
+
+    console.log(+""); // 0, you know why? same reason
+    console.log(+"10"); //10, converted to the number
+
+// That's it guies, lets meet on the next file 🤗
+    
+    
+    
+
+
+
+
+
 
 
 
